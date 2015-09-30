@@ -146,8 +146,16 @@ define(['jquery', 'mg-gui'], function ($, helpers) {
             {   type: 'selectable',
                 //icon: './src/images/3.png',
                 icon: 'http://dummyimage.com/30x30/ff0026/fff.png&text=A',
+                select: function(){console.log(75)},
+                unselect: function(){console.log(70)},
+                group_name: "group2"
+            },
+            {   type: 'selectable',
+                //icon: './src/images/3.png',
+                icon: 'http://dummyimage.com/30x30/ff0026/fff.png&text=A',
                 select: function(){console.log(3)},
-                unselect: function(){console.log(4)}
+                unselect: function(){console.log(4)},
+                group_name: "group1"
             },
             {   type: 'menu',
                 //icon: './src/images/4.png',
@@ -164,6 +172,7 @@ define(['jquery', 'mg-gui'], function ($, helpers) {
                         select: function(){console.log(6)}
                     },
                     {   type: 'selectable',
+                        group_name: "group1",
                         //icon: './src/images/7.png',
                         icon: 'http://dummyimage.com/30x30/ff0026/fff.png&text=A',
                         select: function(){console.log(7)},
@@ -286,7 +295,7 @@ define(['jquery', 'mg-gui'], function ($, helpers) {
     };
     $(document).ready(function() {
 
-        var add = helpers.additional.create(example);
+        //var add = helpers.additional.create(example);
         //var add2 = additional.create(example);
 
 //        example.fields[0].value = 'aaaa';

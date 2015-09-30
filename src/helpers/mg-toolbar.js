@@ -144,13 +144,13 @@ define(['jquery', 'mg-gui/utils/css', 'text!mg-gui/helpers/mg-toolbar.css'], fun
                     field.select();
                 }
                 for (k = 0; k < buttons.length; k++) {
-                    if (buttons[k].off != undefined && buttons[k].$__toolbar_id != field.$__toolbar_id &&
-                        buttons[k].$__toolbar_id != field.parent) {
-                        if (buttons[k].$button.hasClass('enabled')) {
-                            buttons[k].off(buttons[k]);
-                            buttons[k].$button.removeClass('enabled').addClass('disabled');
-                        }
-                    }
+                    //if (buttons[k].off != undefined && buttons[k].$__toolbar_id != field.$__toolbar_id &&
+                    //    buttons[k].$__toolbar_id != field.parent) {
+                    //    if (buttons[k].$button.hasClass('enabled')) {
+                    //        buttons[k].off(buttons[k]);
+                    //        buttons[k].$button.removeClass('enabled').addClass('disabled');
+                    //    }
+                    //}
                     if (buttons[k].$__toolbar_id == field.parent) {
                         parent = buttons[k];
                     }
@@ -181,7 +181,7 @@ define(['jquery', 'mg-gui/utils/css', 'text!mg-gui/helpers/mg-toolbar.css'], fun
 
                     for (k = 0; k < buttons.length; k++) {
                         if (buttons[k].off != undefined && buttons[k].$__toolbar_id != field.$__toolbar_id &&
-                            buttons[k].$__toolbar_id != field.parent) {
+                            buttons[k].$__toolbar_id != field.parent && buttons[k].group_name == field.group_name) {
                             if (buttons[k].$button.hasClass('enabled')) {
                                 buttons[k].off(buttons[k]);
                                 buttons[k].$button.removeClass('enabled').addClass('disabled');
