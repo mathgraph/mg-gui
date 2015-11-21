@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="1352.9 371 50 50" enable-background="new 1352.9 371 50 50" xml:space="preserve">
+<g id="Слой_x0020_1">
+	
+		<radialGradient id="SVGID_1_" cx="12406.8516" cy="-10725.5293" r="1693.5449" gradientTransform="matrix(2.216477e-002 0 0 -2.215642e-002 1102.9188 158.3849)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.4706" style="stop-color:#BFBFBF"/>
+		<stop  offset="1" style="stop-color:#808080"/>
+	</radialGradient>
+	<path fill="url(#SVGID_1_)" fill-opacity="0.7882" d="M1359.4,371h37.1c3.6,0,6.5,2.9,6.5,6.5v37.1c0,3.6-2.9,6.5-6.5,6.5h-37.1
+		c-3.5,0-6.5-2.9-6.5-6.5v-37.1C1352.9,373.9,1355.8,371,1359.4,371z"/>
+	<g id="_846016754368">
+		<g>
+			<defs>
+				<rect id="SVGID_2_" x="1354.4" y="372.9" width="48.3" height="48.1"/>
+			</defs>
+			<clipPath id="SVGID_3_">
+				<use xlink:href="#SVGID_2_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_3_)">
+				
+					<image overflow="visible" enable-background="new    " width="158" height="157" xlink:href="../../../../../Users/Nikw/Downloads/icons/icons/Light_icons/parabola_Images/parabola_ImgID1.png"  transform="matrix(0.3053 0 0 0.3069 1507.3534 447.2577)">
+				</image>
+			</g>
+		</g>
+	</g>
+	<g>
+		
+			<image overflow="visible" opacity="0.75" width="62" height="62" xlink:href="CB558A73.png"  transform="matrix(1 0 0 1 1347 366)">
+		</image>
+		<g>
+			<path fill="none" stroke="#1A84ED" stroke-width="3" stroke-linecap="round" d="M1358.2,377.3c14.5,52.4,27.9,52.4,40.1,0"/>
+		</g>
+	</g>
+</g>
+</svg>

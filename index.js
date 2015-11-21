@@ -19,15 +19,15 @@ require.config({
 });
 
 define(['jquery', 'mg-gui'], function ($, helpers) {
-    var hint = helpers.hint;
-    $(function () {
-        $(document).click(function (event) {
-            hint.off();
-            var pos = {x: event.pageX, y: event.pageY};
-            hint.data = pos;
-            hint.on(pos);
-        });
-    });
+    //var hint = helpers.hint;
+    //$(function () {
+    //    $(document).click(function (event) {
+    //        hint.off();
+    //        var pos = {x: event.pageX, y: event.pageY};
+    //        hint.data = pos;
+    //        hint.on(pos);
+    //    });
+    //});
     var additional = helpers.additional;
     var example = {
         start_position : {
@@ -164,47 +164,47 @@ define(['jquery', 'mg-gui'], function ($, helpers) {
     var example_tool = {
         fields: [
             {   type: 'button',
-                //icon: './src/images/1.png',
-                icon: 'http://dummyimage.com/15x15/ff0026/fff.png&textB',
+                icon: 'src/icons/curve.svg',
+                //icon: 'http://dummyimage.com/15x15/ff0026/fff.png&textB',
                 select: function(){console.log(1)}
             },
             {   type: 'button',
                 //icon: './src/images/2.png',
-                icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=B',
+                icon: 'src/icons/ellipse.svg',
                 select: function(){console.log(2)}
             },
             {   type: 'selectable',
                 //icon: './src/images/3.png',
-                icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=S',
+                icon: 'src/icons/hyperbolic.svg',
                 select: function(){console.log(75)},
                 unselect: function(){console.log(70)},
                 group_name: "group2"
             },
             {   type: 'selectable',
                 //icon: './src/images/3.png',
-                icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=S',
+                icon: 'src/icons/parabolic.svg',
                 select: function(){console.log(3)},
                 unselect: function(){console.log(4)},
                 group_name: "group1"
             },
             {   type: 'menu',
                 //icon: './src/images/4.png',
-                icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=M',
+                icon: 'src/icons/point.svg',
                 fields:[
                     {   type: 'button',
                         //icon: './src/images/5.png',
-                        icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=B',
+                        icon: 'src/icons/remove.svg',
                         select: function(){console.log(5)}
                     },
                     {   type: 'button',
                         //icon: './src/images/6.png',
-                        icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=B',
+                        icon: 'src/icons/segment.svg',
                         select: function(){console.log(6)}
                     },
                     {   type: 'selectable',
                         group_name: "group1",
                         //icon: './src/images/7.png',
-                        icon: 'http://dummyimage.com/15x15/ff0026/fff.png&text=S',
+                        icon: 'src/icons/SW.svg',
                         select: function(){console.log(7)},
                         unselect: function(){console.log(8)}
                     }
@@ -325,16 +325,16 @@ define(['jquery', 'mg-gui'], function ($, helpers) {
     };
     $(document).ready(function() {
 
-        var add = helpers.additional.create(example);
+        //var add = helpers.additional.create(example);
         //var add2 = additional.create(example);
 
 //        example.fields[0].value = 'aaaa';
 //        console.log(add);
-//        helpers.toolbar.init($('#toolbar_place'), 1, 1);
-//        helpers.toolbar.on(example_tool);
+        helpers.toolbar.init($('#toolbar_place'), 1, 1);
+        helpers.toolbar.on(example_tool);
         //helpers.toolbar.refresh(example_tool_2);
-//        helpers.contextual.init($('#toolbar_place'), 2);
-//        helpers.contextual.on(example_tool_2);
+        //helpers.contextual.init($('#toolbar_place'), 2);
+        //helpers.contextual.on(example_tool_2);
 //        helpers.contextual.off();
 //        helpers.popup.on(example_popup);
     });

@@ -44,3 +44,34 @@ tr.mg-gui-toolbar-menu td{
     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.22);
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.22);
 }
+
+tr.mg-gui-toolbar-selectable td.enabled {
+    background-color: #444444;
+}
+tr.mg-gui-toolbar-menu td.enabled {
+    background-color: #444444;
+}
+
+
+tr.mg-gui-toolbar-selectable td:hover {
+    background-color: #666666;
+}
+tr.mg-gui-toolbar-menu td:hover {
+    background-color: #666666;
+}
+tr.mg-gui-toolbar-button td:hover {
+    background-color: #666666;
+}
+tr.mg-gui-toolbar-selectable td:active {
+    background-color: #444444;
+}
+tr.mg-gui-toolbar-menu td:active {
+    background-color: #444444;
+}
+tr.mg-gui-toolbar-button td:active {
+     background-color: #444444;
+}
+
+tr img {
+    width: 50px;
+}

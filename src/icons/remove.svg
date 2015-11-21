@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="1633.9 0 50 50" enable-background="new 1633.9 0 50 50" xml:space="preserve">
+<g id="Слой_x0020_1">
+	
+		<radialGradient id="SVGID_1_" cx="2896.0737" cy="-1105.1592" r="1693.1274" gradientTransform="matrix(2.221119e-002 0 0 -2.221624e-002 1594.653 0.5818)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.4706" style="stop-color:#BFBFBF"/>
+		<stop  offset="1" style="stop-color:#808080"/>
+	</radialGradient>
+	<path fill="url(#SVGID_1_)" fill-opacity="0.7882" d="M1640.4,0.1h37.2c3.6,0,6.5,2.9,6.5,6.5v37.2c0,3.6-2.9,6.5-6.5,6.5h-37.2
+		c-3.6,0-6.5-2.9-6.5-6.5V6.5C1633.9,3,1636.8,0.1,1640.4,0.1z"/>
+	<g id="_844088231152">
+		<g>
+			<defs>
+				<polygon id="SVGID_2_" points="1634.4,1.8 1678.7,1.8 1678.7,41.8 1634.4,41.9 				"/>
+			</defs>
+			<clipPath id="SVGID_3_">
+				<use xlink:href="#SVGID_2_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_3_)">
+			</g>
+		</g>
+	</g>
+	<g id="_844088229872">
+		
+			<image overflow="visible" opacity="0.75" width="59" height="56" xlink:href="CA899D1E.png"  transform="matrix(1 0 0 1 1627 -6)">
+		</image>
+		<g>
+			<g>
+				<path fill="none" stroke="#1A84ED" stroke-width="3" stroke-linecap="round" d="M1642.8,11.5c11.5-0.1,24.2,0,29.4,4.8
+					c9,8.4-3,20.2-13.4,22.3"/>
+				<polygon fill="#1A84ED" stroke="#1A84ED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
+					1637.7,11.4 1643.8,14.6 1649.9,17.8 1649.9,11.4 1649.9,5.1 1643.8,8.3 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
